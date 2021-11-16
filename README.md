@@ -16,9 +16,9 @@ Build a SPA to display data fetched from the Rijksmuseum API. The page must cont
     - Using general libraries like rxjs, ramda,lodash.
 
 # The Completed Assignment
- Brief description
- Amount of components
- Search funtionality
- Routing
- Fetures to draw attention to: UI
+ - Brief description
+ - Amount of components
+ - Search funtionality
+ - Routing
+ - Fetures to draw attention to: UI
 
