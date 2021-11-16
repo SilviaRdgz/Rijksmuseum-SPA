@@ -1,0 +1,24 @@
+.nav{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index:999;
+    display: grid;
+    grid-template-columns: repeat(2, 750px [col-end]);
+}
+.logo{
+    padding: 10px;
+}
+.search-bar{
+padding: 10px ;
+display: grid;
+justify-self: center;
+}
+.grid {
+    display: grid ;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto;
+    margin: 20px 0px 20px 130px
+}
+

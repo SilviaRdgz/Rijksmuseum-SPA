@@ -1,0 +1,12 @@
+<div class="artObject-card">
+    <div class="img-container">
+        <img class='art-object-img' [src]='artObject.webImage.url' alt="art-img" loading='lazy'>
+    </div>
+    <div class="img-overlay">
+        <div class="img-title">
+            <a routerLink='art-object/{{artObject.objectNumber}}'>
+                <h1>See More</h1>
+            </a>
+        </div>
+    </div>
+</div>

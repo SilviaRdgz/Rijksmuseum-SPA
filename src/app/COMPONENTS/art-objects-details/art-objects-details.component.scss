@@ -1,0 +1,67 @@
+.animation-container {
+    position: relative;
+    top: 50px;
+    left: 350px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.art-img {
+    display: block;
+    width: 700px;
+    height: 700px;
+    border-radius: 600px;
+}
+.details-img-overlay {
+    position: absolute;
+    border-radius: 600px;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 700px;
+    background: rgb(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;  
+}
+.details-img-overlay:hover {
+    opacity: 1;
+}
+.table {
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    width: 60%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+}
+.gradient-text {
+  background: linear-gradient(to right, rgb(220, 167, 20),pink,springgreen);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  font-size:2rem;
+  width:50vw;
+  transition: color .2s ease-in-out;
+  text-transform:uppercase;
+  font-weight:900;
+}
+.gradient-text:hover {
+    color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
