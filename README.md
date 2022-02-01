@@ -22,3 +22,9 @@ Build a SPA to display data fetched from the Rijksmuseum API. The page must cont
  - Routing
  - Fetures to draw attention to: UI
 
+# How it looks like:
+
+
+
+https://user-images.githubusercontent.com/81960826/152023411-d0a83b63-2fb4-4067-8ecd-ad23d97f51cb.mp4
+
